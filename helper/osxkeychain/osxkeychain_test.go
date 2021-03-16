@@ -28,7 +28,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/versent/saml2aws/v2/helper/credentials"
+	"github.com/coralogix/saml2aws/v2/helper/credentials"
 )
 
 func TestOSXKeychainHelper(t *testing.T) {

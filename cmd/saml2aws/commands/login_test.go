@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/versent/saml2aws/v2"
-	"github.com/versent/saml2aws/v2/pkg/awsconfig"
-	"github.com/versent/saml2aws/v2/pkg/cfg"
-	"github.com/versent/saml2aws/v2/pkg/creds"
-	"github.com/versent/saml2aws/v2/pkg/flags"
+	"github.com/coralogix/saml2aws/v2"
+	"github.com/coralogix/saml2aws/v2/pkg/awsconfig"
+	"github.com/coralogix/saml2aws/v2/pkg/cfg"
+	"github.com/coralogix/saml2aws/v2/pkg/creds"
+	"github.com/coralogix/saml2aws/v2/pkg/flags"
 )
 
 func TestResolveLoginDetailsWithFlags(t *testing.T) {
